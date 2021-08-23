@@ -15,10 +15,8 @@ p {
   overflow: hidden;
 }
 
-
 #container {
-  position: relative;
-  
+  position: relative;  
 }
 
 #p1 {
@@ -48,6 +46,7 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 
 }
+
 #p3 {
  background-color:#037bfc;
   position: absolute;
@@ -59,15 +58,11 @@ p {
   padding: 10px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-
 }
-
 
 .row {
   width: 100%;
-
 }
-
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
@@ -110,9 +105,7 @@ p {
   }
   .col-lg-12 {
     width: 100%;
-  }
-
-  
+  }  
 }
 
 /********** Medium devices only **********/
@@ -200,7 +193,5 @@ p {
   }
   .col-sm-12 {
     width: 100%;
-  }
-
-  
+  }  
 }
